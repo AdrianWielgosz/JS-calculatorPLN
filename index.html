@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -29,3 +30,35 @@
 	</body>
 	<script src="index.js"></script>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Przelicznik walut</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main class="container">
+		<h1>Przelicznik walutowy</h1>
+		<p id="text">
+			Wybierz walutę i podaj jej ilość, aby przeliczyć jej wartość na PLN
+		</p>
+		<form>
+			<label>Podaj kwotę:</label>
+			<input type="number" id="amount" min="1" placeholder="Podaj kwotę"/>
+			<select id="from">
+				<option value="USD">USD</option>
+				<option value="EUR">EUR</option>
+				<option value="CHF">CHF</option>
+			</select>
+			<button type="button" id="convert">Przelicz</button>
+			<p id="result"></p>
+		</form>
+	</main>
+	</body>
+	<script src="index.js"></script>
+</html>
+>>>>>>> 1134e4348cde7c9ae54e890bc7f0dcff107cdce3
